@@ -2,11 +2,13 @@
 
 Hello everyone, this software tests your Internet speed (upload, download).
 
-To get started, you just need to have [Python](https://www.python.org/) already installed.
-
 **How to use?**
 
-To start, you need to open the console from the root folder of the project and write:
+To get started, you just need to have [Python](https://www.python.org/) already installed and the [speedtest-cli](https://pypi.org/project/speedtest-cli/) library.
+```
+pip install speedtest-cli
+```
+After that, open the console from the project root folder, write the following:
 ```
 python script.py
 ```
